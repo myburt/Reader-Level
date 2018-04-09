@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import MenuBar from "./components/menu-bar.js";
 import BookList from "./components/book-list.js";
+import WelcomeMessage from "./components/welcome-message.js";
 import "./App.css";
 
 const hardCodeBooks = [
@@ -60,11 +61,14 @@ class App extends Component {
 
   render() {
     return (
-      <div className="container">
+      <React.Fragment>
         <MenuBar />
+        <div  className="container" id="main-contain">
+          <WelcomeMessage />
 
-        <BookList books={this.state.books} />
-      </div>
+          <BookList books={this.state.books} />
+        </div>
+      </React.Fragment>
     );
   }
 }

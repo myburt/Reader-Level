@@ -31,6 +31,45 @@
   margin: 1em;
 }
 
+#Header-Message{
+  text-align: center;
+}
+
+#level-cards-row{
+  text-align: center;
+}
+
+#root{
+  background-color: #9099A2;
+}
+
+#main-contain{
+  background-color: #D5D5D5;
+}
+
+#login{
+  align-content: end;
+}
+
+.navbar{
+  background-color: #737a81;
+}
+
+.book-level{
+  font-family: Comic Sans MS;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.book-title{
+  font-style: italic;
+}
+
+.book-author{
+
+}
+
+
 .A, .B, .C{background-color: #ea5c9f;}
 
 .D, .E, .F, .G, .H, .I{background-color: #f85e92;}
