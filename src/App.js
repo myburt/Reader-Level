@@ -3,6 +3,8 @@ import MenuBar from "./components/menu-bar.js";
 import BookList from "./components/book-list.js";
 import WelcomeMessage from "./components/welcome-message.js";
 import TestBooks from "./data/test-books.js";
+
+import {BrowserRouter, Route} from 'react-router-dom';
 import "./App.css";
 
 let groupedBooks = TestBooks;
@@ -11,8 +13,7 @@ class App extends Component {
     super(props);
 
     this.state = {
-      books: TestBooks[1],
-      currentList: groupedBooks[0]
+      books: TestBooks[1]
     };
   }
 
